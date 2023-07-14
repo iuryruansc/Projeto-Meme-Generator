@@ -1,0 +1,8 @@
+#meme-image-container {
+    display: inline-block;
+}
+
+#meme-text {
+    position: absolute;
+    color: white;
+}
