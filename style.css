@@ -67,6 +67,7 @@ h3 {
     position: absolute;
     font-size: 30px;
     color: white;
+    text-shadow: 5px 5px 5px black;
 }
   
 #meme-image {
