@@ -1,44 +1,87 @@
-#meme-image-container {
-    display: flex;
-    border: 1px solid black;
-    margin-top: 10px;
-    background-color: white;
-    max-width: fit-content;
-    max-height: fit-content;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
-
+  
+h1 {
+    text-align: center;
+}
+  
+h3 {
+    margin-top: 30px;
+}
+  
+#buttons {
+    margin-bottom: 20px;
+}
+  
+#buttons label {
+    display: block;
+    margin-top: 10px;
+}
+  
+#buttons input[type="text"],
+#buttons input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+  
+#buttons button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+#memes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+#memes img {
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+  
+#meme-image-container {
+    margin-top: 30px;
+    border: 1px solid black;
+    display: inline-block;
+}
+  
 #meme-text {
     position: absolute;
     font-size: 30px;
     color: white;
-    text-shadow: 5px 5px 5px black;
 }
-
-#meme-image, #memes{
-    display: inline-block;
-}
-
-#meme-1, #meme-2, #meme-3, #meme-4 {
-    height: 235px;
-    width: 235px;
+  
+#meme-image {
+    max-width: 100%;
+    display: block;
 }
 
 #fire {
     background-color: red;
 }
 
-#water {
+#water{
     background-color: blue;
 }
 
 #earth {
     background-color: green;
-}
-
-#text-input {
-    margin-right: 15px;
-}
-
-#meme-insert {
-    margin-right: 15px;
 }
