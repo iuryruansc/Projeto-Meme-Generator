@@ -9,8 +9,25 @@
 <body>
     <main>
         <h1>Gerador de Memes</h1>
-        <input type="text" id="text-input">
-        <input type="file" id="meme-insert" accept="image/*">
+        <div id="buttons">
+            <label for="text-input">Texto do Meme:</label>
+            <input type="text" id="text-input" maxlength="60">
+            <label for="text-input">Imagem para Meme:</label>
+            <input type="file" id="meme-insert" accept="image/*">
+            <label for="fire">Bordas do Meme:</label>
+            <button id="fire">Borda Vermelha</button>
+            <button id="water">Borda Azul</button>
+            <button id="earth">Borda Verde</button>
+        </div>
+        
+        <h3>Clique em uma imagem para selecionar um exemplo</h3>
+        <div id="memes">
+            <img src="Stardew_Valley_E9fcc76Y3I.png" alt="img1" id="meme-1">
+            <img src="Stardew_Valley_EYDVsYbeGd.png" alt="img2" id="meme-2">
+            <img src="Stardew_Valley_R8b2jZgO9H.png" alt="img3" id="meme-3">
+            <img src="Stardew_Valley_d9Ti7kvbN7.png" alt="img4" id="meme-4">
+        </div>
+        
         <div id="meme-image-container">
             <span id="meme-text"></span>
             <img src="" id="meme-image">
